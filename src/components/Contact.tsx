@@ -46,25 +46,37 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    {
-      icon: <Github size={24} />,
-      name: 'GitHub',
-      url: 'https://github.com/mohit-sharma311',
-      color: 'hover:text-gray-900'
-    },
-    {
-      icon: <Linkedin size={24} />,
-      name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/mohit-sharma-b2422b1b9/',
-      color: 'hover:text-blue-600'
-    },
-    {
-      icon: <Instagram size={24} />,
-      name: 'Instagram',
-      url: 'https://www.instagram.com/mohitsharma3/',
-      color: 'hover:text-pink-600'
-    }
-  ];
+  {
+    icon: <Github size={24} />,
+    name: 'GitHub',
+    url: 'https://github.com/mohit-sharma311',
+    color: 'hover:text-gray-900'
+  },
+  {
+    icon: <Linkedin size={24} />,
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/mohit-sharma-b2422b1b9/',
+    color: 'hover:text-blue-600'
+  },
+  {
+    icon: <Instagram size={24} />,
+    name: 'Instagram',
+    url: 'https://www.instagram.com/mohitsharma3/',
+    color: 'hover:text-pink-600'
+  },
+  {
+    icon: (
+      <img
+        src="/Linktree--Streamline-Simple-Icons.png" // add a Linktree logo in /public folder
+        alt="Linktree"
+        className="w-6 h-6"
+      />
+    ),
+    name: 'Linktree',
+    url: 'https://linktr.ee/mohit311',
+    color: 'hover:text-green-600'
+  }
+];
 
   return (
     <section id="contact" className="py-20 bg-white">
