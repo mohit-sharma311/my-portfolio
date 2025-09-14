@@ -44,7 +44,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold text-gray-900">Current Role</h3>
               </div>
               <p className="text-gray-600">
-                Executive Developer at E-connect Solutions Pvt. Ltd, building scalable 
+                Software Developer at E-connect Solutions Pvt. Ltd, building scalable 
                 web applications and contributing to digital transformation projects.
               </p>
             </div>
