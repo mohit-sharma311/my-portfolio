@@ -16,7 +16,7 @@ const About = () => {
           <div>
             <div className="prose prose-lg">
               <p className="text-gray-600 leading-relaxed mb-6">
-                I am a passionate Full Stack Developer currently working as an Executive Developer 
+                I am a passionate Full Stack Developer currently working as an Software Developer 
                 at <strong>E-connect Solutions Pvt. Ltd</strong>, where I've been contributing to 
                 innovative projects since July 2022.
               </p>
